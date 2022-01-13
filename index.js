@@ -22,7 +22,12 @@ const options = {
     },
     servers: [
       {
+        url: "https://useridgenerator.herokuapp.com",
+        description: "production production",
+      },
+      {
         url: "http://localhost:5000",
+        description: "Development server",
       },
     ],
   },
