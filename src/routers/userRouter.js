@@ -6,8 +6,8 @@ const router = express.Router();
  * @swagger
  * /api/{name}:
  *   get:
- *     summary: Retrieve a single JSONPlaceholder user.
- *     description: Retrieve a single JSONPlaceholder user. Can be used to populate a user profile when prototyping or testing an API.
+ *     summary: get JSONPlaceholder users.
+ *     description: get user id and time by entering a user name as param
  *     parameters:
  *       - in: path
  *         name: name
@@ -25,7 +25,7 @@ const router = express.Router();
  *               properties:
  *                 data:
  *                   type: object
- *                   properties:                    
+ *                   properties:
  *                     name:
  *                       type: string
  *                       description: The user's name.
@@ -38,9 +38,9 @@ const router = express.Router();
  *                        type: string
  *                        description: time user created
  *                        example: Thu Jan 13 2022 15:25:46 GMT+0300 (East Africa Time)
- *                      
- * 
- *                     
+ *
+ *
+ *
  */
 
 router.get("/:name", getAllUsers);
