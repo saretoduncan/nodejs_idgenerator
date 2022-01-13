@@ -1,4 +1,4 @@
-# idGenerator-springBoot
+# nodejs_idGenerator
  This a rest api that gets user id as a response by enterering a name as a param
 <div>
 <img src="./src/images/idgen.png"></div>
@@ -7,7 +7,7 @@
 
 - JAVASCRIPT
 - NODEJS
-- SWAGGER
+- SWAGGER-UI
 
 
 
