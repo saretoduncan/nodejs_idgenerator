@@ -32,7 +32,7 @@ $ npm install
 
 ```
 ### Live Link & Documentation
-https://useridgenerator.herokuapp.com/api-docs/
+- https://useridgenerator.herokuapp.com/api-docs/
 
 ## Author
 
