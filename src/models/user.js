@@ -1,7 +1,8 @@
+import { v4 as uuidv4 } from 'uuid';
 export class Person {
-    constructor(name,id){
+    constructor(name){
         this.name= name;
-        this.id = id;
+        this.id = uuidv4();
         this.date = new Date().toString();
     }
 }
